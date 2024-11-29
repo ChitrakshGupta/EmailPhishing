@@ -44,8 +44,8 @@ Phishing attacks fall under **social engineering**, where the attacker manipulat
 ### 3. **Choosing the Attack Method**  
 SET offers many types of social engineering attacks. For this demonstration, we selected the **Credential Harvester Attack Method**, which is designed to capture login credentials like email IDs and passwords.  
 
-![Credential Harvester Method](images/Picture2)  
-![Credential Harvester Method](images/Picture3)  
+![Credential Harvester Method](https://github.com/ChitrakshGupta/EmailPhishing/blob/master/images/Picture2.png)  
+![Credential Harvester Method](https://github.com/ChitrakshGupta/EmailPhishing/blob/master/images/Picture3.png)  
 
 
 ---
@@ -53,17 +53,17 @@ SET offers many types of social engineering attacks. For this demonstration, we 
 ### 4. **Using Web Templates for Phishing**  
 In this step, we used SET's built-in **Gmail Web Template** to create a fake login page. This page is hosted on the Kali Linux machine to collect input (email ID and password) from the victim. Other templates are also available in SET for different purposes.  
 
-![Gmail Web Template Setup](images/Picture4)  
+![Gmail Web Template Setup](https://github.com/ChitrakshGupta/EmailPhishing/blob/master/images/Picture4.png)  
 
 
 ### 5. **Configuring the Phishing Page**  
 We used the Kali Linux machine's IP address to host the fake Gmail login page. This ensures the phishing attack is conducted in a controlled environment.  
 
 Next, we crafted a phishing email, embedding the IP address where the fake Gmail login page is hosted.  
-![Phishing Email Configuration](images/Picture5)  
+![Phishing Email Configuration](https://github.com/ChitrakshGupta/EmailPhishing/blob/master/images/Picture5.png)  
 
 ---
-![Phishing Email Configuration](images/Picture6)
+![Phishing Email Configuration](https://github.com/ChitrakshGupta/EmailPhishing/blob/master/images/Picture6.png)
 
 
 ---
@@ -71,7 +71,7 @@ Next, we crafted a phishing email, embedding the IP address where the fake Gmail
 ### 6. **Sending the Phishing Email**  
 Below is the final phishing email sent to the target user. The email embeds the fake login page link, tempting the user with a message (e.g., offering money) to log in through their Google account.  
 
-![Phishing Email Sent](images/Picture7)  
+![Phishing Email Sent](https://github.com/ChitrakshGupta/EmailPhishing/blob/master/images/Picture7.png)  
 
 ---
 
@@ -81,14 +81,14 @@ Once the phishing email is sent, the victim receives it and is tempted to click 
 
 
 After clicking the link, the victim is redirected to the fake login page. Here, they are asked to enter their Gmail credentials, thinking it will grant them access to the promised reward.  
-![Victim Email Received](images/Picture8)  
+![Victim Email Received](https://github.com/ChitrakshGupta/EmailPhishing/blob/master/images/Picture8.png)  
 
 ---
 
 ### 8. **Harvesting Credentials**  
 When the victim submits their login information, the credentials are captured by the attacker. Below is an example of the credentials harvested:  
 
-![Captured Credentials](images/Picture9)  
+![Captured Credentials](https://github.com/ChitrakshGupta/EmailPhishing/blob/master/images/Picture9.png)  
 
 ---
 
