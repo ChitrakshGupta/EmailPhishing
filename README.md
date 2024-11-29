@@ -37,7 +37,7 @@ In the screenshot above, you can see that SET provides various options for perfo
 
 Phishing attacks fall under **social engineering**, where the attacker manipulates the target to reveal crucial information.  
 
-![SET Options](images/Picture1)  
+![SET Options](https://github.com/ChitrakshGupta/EmailPhishing/blob/master/images/Picture1.png)  
 
 
 
